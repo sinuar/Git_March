@@ -10,12 +10,17 @@
 		0F5EEE4D27EE3B8F00F68D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE4C27EE3B8F00F68D10 /* AppDelegate.swift */; };
 		0F5EEE4F27EE3B8F00F68D10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE4E27EE3B8F00F68D10 /* SceneDelegate.swift */; };
 		0F5EEE5127EE3B8F00F68D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE5027EE3B8F00F68D10 /* ViewController.swift */; };
-		0F5EEE5427EE3B8F00F68D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5EEE5227EE3B8F00F68D10 /* Main.storyboard */; };
 		0F5EEE5627EE3B9000F68D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5EEE5527EE3B9000F68D10 /* Assets.xcassets */; };
 		0F5EEE5927EE3B9000F68D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5EEE5727EE3B9000F68D10 /* LaunchScreen.storyboard */; };
 		0F5EEE6427EE3B9100F68D10 /* Bitcoin_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE6327EE3B9100F68D10 /* Bitcoin_projectTests.swift */; };
 		0F5EEE6E27EE3B9100F68D10 /* Bitcoin_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE6D27EE3B9100F68D10 /* Bitcoin_projectUITests.swift */; };
 		0F5EEE7027EE3B9100F68D10 /* Bitcoin_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE6F27EE3B9100F68D10 /* Bitcoin_projectUITestsLaunchTests.swift */; };
+		0F5EEE8527EE3D8500F68D10 /* MainMouduleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE8427EE3D8500F68D10 /* MainMouduleRouter.swift */; };
+		0F5EEE8727EE3E1C00F68D10 /* MainModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE8627EE3E1C00F68D10 /* MainModuleView.swift */; };
+		0F5EEE8A27EE3EF000F68D10 /* MainModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE8927EE3EF000F68D10 /* MainModuleInteractor.swift */; };
+		0F5EEE8C27EE3F5200F68D10 /* MainModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE8B27EE3F5200F68D10 /* MainModulePresenter.swift */; };
+		0F5EEE8E27EE3FA000F68D10 /* MainModuleRemoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE8D27EE3FA000F68D10 /* MainModuleRemoteData.swift */; };
+		0F5EEE9027EE40F500F68D10 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE8F27EE40F500F68D10 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,6 @@
 		0F5EEE4C27EE3B8F00F68D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F5EEE4E27EE3B8F00F68D10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0F5EEE5027EE3B8F00F68D10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0F5EEE5327EE3B8F00F68D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F5EEE5527EE3B9000F68D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F5EEE5827EE3B9000F68D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F5EEE5A27EE3B9000F68D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		0F5EEE6927EE3B9100F68D10 /* Bitcoin_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bitcoin_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5EEE6D27EE3B9100F68D10 /* Bitcoin_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitcoin_projectUITests.swift; sourceTree = "<group>"; };
 		0F5EEE6F27EE3B9100F68D10 /* Bitcoin_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitcoin_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F5EEE8427EE3D8500F68D10 /* MainMouduleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMouduleRouter.swift; sourceTree = "<group>"; };
+		0F5EEE8627EE3E1C00F68D10 /* MainModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleView.swift; sourceTree = "<group>"; };
+		0F5EEE8927EE3EF000F68D10 /* MainModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleInteractor.swift; sourceTree = "<group>"; };
+		0F5EEE8B27EE3F5200F68D10 /* MainModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModulePresenter.swift; sourceTree = "<group>"; };
+		0F5EEE8D27EE3FA000F68D10 /* MainModuleRemoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleRemoteData.swift; sourceTree = "<group>"; };
+		0F5EEE8F27EE40F500F68D10 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,10 @@
 		0F5EEE4B27EE3B8F00F68D10 /* Bitcoin_project */ = {
 			isa = PBXGroup;
 			children = (
+				0F5EEE7C27EE3D0B00F68D10 /* MainModule */,
 				0F5EEE4C27EE3B8F00F68D10 /* AppDelegate.swift */,
 				0F5EEE4E27EE3B8F00F68D10 /* SceneDelegate.swift */,
 				0F5EEE5027EE3B8F00F68D10 /* ViewController.swift */,
-				0F5EEE5227EE3B8F00F68D10 /* Main.storyboard */,
 				0F5EEE5527EE3B9000F68D10 /* Assets.xcassets */,
 				0F5EEE5727EE3B9000F68D10 /* LaunchScreen.storyboard */,
 				0F5EEE5A27EE3B9000F68D10 /* Info.plist */,
@@ -125,6 +135,75 @@
 				0F5EEE6F27EE3B9100F68D10 /* Bitcoin_projectUITestsLaunchTests.swift */,
 			);
 			path = Bitcoin_projectUITests;
+			sourceTree = "<group>";
+		};
+		0F5EEE7C27EE3D0B00F68D10 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				0F5EEE8327EE3D4F00F68D10 /* Protocols */,
+				0F5EEE8227EE3D4300F68D10 /* RemoteData */,
+				0F5EEE8127EE3D3D00F68D10 /* Router */,
+				0F5EEE8027EE3D3800F68D10 /* Entity */,
+				0F5EEE7F27EE3D3200F68D10 /* Presenter */,
+				0F5EEE7E27EE3D2800F68D10 /* Interactor */,
+				0F5EEE7D27EE3D1D00F68D10 /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		0F5EEE7D27EE3D1D00F68D10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F5EEE8627EE3E1C00F68D10 /* MainModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F5EEE7E27EE3D2800F68D10 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0F5EEE8927EE3EF000F68D10 /* MainModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0F5EEE7F27EE3D3200F68D10 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0F5EEE8B27EE3F5200F68D10 /* MainModulePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0F5EEE8027EE3D3800F68D10 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		0F5EEE8127EE3D3D00F68D10 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0F5EEE8427EE3D8500F68D10 /* MainMouduleRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0F5EEE8227EE3D4300F68D10 /* RemoteData */ = {
+			isa = PBXGroup;
+			children = (
+				0F5EEE8D27EE3FA000F68D10 /* MainModuleRemoteData.swift */,
+			);
+			path = RemoteData;
+			sourceTree = "<group>";
+		};
+		0F5EEE8327EE3D4F00F68D10 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0F5EEE8F27EE40F500F68D10 /* Protocols.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +312,6 @@
 			files = (
 				0F5EEE5927EE3B9000F68D10 /* LaunchScreen.storyboard in Resources */,
 				0F5EEE5627EE3B9000F68D10 /* Assets.xcassets in Resources */,
-				0F5EEE5427EE3B8F00F68D10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5EEE8527EE3D8500F68D10 /* MainMouduleRouter.swift in Sources */,
+				0F5EEE8A27EE3EF000F68D10 /* MainModuleInteractor.swift in Sources */,
 				0F5EEE5127EE3B8F00F68D10 /* ViewController.swift in Sources */,
+				0F5EEE9027EE40F500F68D10 /* Protocols.swift in Sources */,
 				0F5EEE4D27EE3B8F00F68D10 /* AppDelegate.swift in Sources */,
 				0F5EEE4F27EE3B8F00F68D10 /* SceneDelegate.swift in Sources */,
+				0F5EEE8C27EE3F5200F68D10 /* MainModulePresenter.swift in Sources */,
+				0F5EEE8E27EE3FA000F68D10 /* MainModuleRemoteData.swift in Sources */,
+				0F5EEE8727EE3E1C00F68D10 /* MainModuleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0F5EEE5227EE3B8F00F68D10 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F5EEE5327EE3B8F00F68D10 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F5EEE5727EE3B9000F68D10 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +520,7 @@
 				INFOPLIST_FILE = Bitcoin_project/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +548,7 @@
 				INFOPLIST_FILE = Bitcoin_project/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
