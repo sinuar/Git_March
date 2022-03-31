@@ -16,7 +16,15 @@ class MainModuleInteractor {
 }
 
 // From Presenter to Interactor
-extension MainModuleInteractor: MainModuleInteractorInputProtocol { }
+extension MainModuleInteractor: MainModuleInteractorInputProtocol {
+    func willGetData() {
+        remoteData?.fetchJsonData(for: "response", fileExtension: "json")
+    }
+}
 
 // From RemoteData to Interactor
-extension MainModuleInteractor: MainModuleRemoteDataOutputProtocol { }
+extension MainModuleInteractor: MainModuleRemoteDataOutputProtocol {
+    func getJson(data: Data) {
+        presenter?.handleData(data: data)
+    }
+}

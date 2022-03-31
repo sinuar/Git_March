@@ -21,6 +21,7 @@
 		0F5EEE8C27EE3F5200F68D10 /* MainModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE8B27EE3F5200F68D10 /* MainModulePresenter.swift */; };
 		0F5EEE8E27EE3FA000F68D10 /* MainModuleRemoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE8D27EE3FA000F68D10 /* MainModuleRemoteData.swift */; };
 		0F5EEE9027EE40F500F68D10 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EEE8F27EE40F500F68D10 /* Protocols.swift */; };
+		0FCD45AE27F5129500467C58 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD45AD27F5129500467C58 /* response.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		0F5EEE8B27EE3F5200F68D10 /* MainModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModulePresenter.swift; sourceTree = "<group>"; };
 		0F5EEE8D27EE3FA000F68D10 /* MainModuleRemoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleRemoteData.swift; sourceTree = "<group>"; };
 		0F5EEE8F27EE40F500F68D10 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		0FCD45AD27F5129500467C58 /* response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		0F5EEE4B27EE3B8F00F68D10 /* Bitcoin_project */ = {
 			isa = PBXGroup;
 			children = (
+				0FCD45AC27F5125700467C58 /* JsonData */,
 				0F5EEE7C27EE3D0B00F68D10 /* MainModule */,
 				0F5EEE4C27EE3B8F00F68D10 /* AppDelegate.swift */,
 				0F5EEE4E27EE3B8F00F68D10 /* SceneDelegate.swift */,
@@ -204,6 +207,14 @@
 				0F5EEE8F27EE40F500F68D10 /* Protocols.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0FCD45AC27F5125700467C58 /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD45AD27F5129500467C58 /* response.json */,
+			);
+			path = JsonData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F5EEE5927EE3B9000F68D10 /* LaunchScreen.storyboard in Resources */,
+				0FCD45AE27F5129500467C58 /* response.json in Resources */,
 				0F5EEE5627EE3B9000F68D10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

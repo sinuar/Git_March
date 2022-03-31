@@ -37,7 +37,6 @@ class MainModuleRouter {
 
 extension MainModuleRouter: MainModuleRouterProtocol {
     
-    
     func showMainModuleView() {
         window.rootViewController = UINavigationController(rootViewController: view)
         window.makeKeyAndVisible()

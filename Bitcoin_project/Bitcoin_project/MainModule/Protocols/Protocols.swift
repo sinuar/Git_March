@@ -9,22 +9,37 @@ import UIKit
 
 //From View to Presenter
 protocol MainModuleViewProtocol: AnyObject {
+    var presenter: MainModulePresenterProtocol? { get set }
+    func loadedView(data: Data)
 }
 
 // From Presenter to Interactor
-protocol MainModuleInteractorInputProtocol: AnyObject { }
+protocol MainModuleInteractorInputProtocol: AnyObject {
+    var presenter: MainModuleInteractorOutputProtocol? { get set }
+    func willGetData()
+}
 
 // From Interactor to Presenter
-protocol MainModuleInteractorOutputProtocol{ }
+protocol MainModuleInteractorOutputProtocol{
+    func handleData(data: Data)
+}
 
 // From Presenter to View
-protocol MainModulePresenterProtocol{ }
+protocol MainModulePresenterProtocol{
+    func viewDidLoad()
+}
 
 // From Interactor to RemoteData
-protocol MainModuleRemoteDataInputProtocol{ }
+protocol MainModuleRemoteDataInputProtocol{
+    var interactor: MainModuleRemoteDataOutputProtocol? { get set }
+    // Function that fetches remote json data
+    func fetchJsonData(for fileName: String, fileExtension: String)
+}
 
 // From RemoteData to Interactor
-protocol MainModuleRemoteDataOutputProtocol{ }
+protocol MainModuleRemoteDataOutputProtocol{
+    func getJson(data: Data)
+}
 
 // From Presenter to Router
 protocol MainModuleRouterProtocol{

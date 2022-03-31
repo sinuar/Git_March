@@ -22,9 +22,15 @@ class MainModulePresenter {
 }
 
 // From Interactor to Presenter
-extension MainModulePresenter: MainModulePresenterProtocol { }
+extension MainModulePresenter: MainModulePresenterProtocol {
+    func viewDidLoad() {
+        interactor?.willGetData()
+    }
+}
 
 // From Presenter to View
 extension MainModulePresenter: MainModuleInteractorOutputProtocol {
-    
+    func handleData(data: Data) {
+        view?.loadedView(data: data)
+    }
 }
